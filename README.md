@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```       
 
 Set up credentials:
-- Edit a credentials.py file in the root directory.
+- Create a .env file in the root directory.
 - Fill in your Telegram API ID, API Hash, Telegram phone number and Bearer Token token.
 
 ### Run the application:
@@ -49,6 +49,8 @@ Set up credentials:
 ```      
 uvicorn main:app --reload
 ```
+You will be promted to enter OTP from telegram.
+The new sesion will be saved in your root directory under the name `mysession.session` (you can change the name in main.py)
 
 ### Todo:
 - Refactoring
