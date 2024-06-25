@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 Set up credentials:
 - Create a .env file in the root directory.
-- Fill in your Telegram API ID, API Hash, Telegram phone number and Bearer Token token.
+- Fill in your Telegram API ID, API Hash, Telegram phone number and Bearer Token for OpenAPI.
 
 ### Run the application:
 
