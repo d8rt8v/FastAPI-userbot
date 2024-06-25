@@ -33,8 +33,10 @@ flowchart TD
 - Asynchronous Design: Built with asynchronous programming for efficient handling of multiple requests.
 
 ### Getting Started:
-Install dependencies:
+Create venv and install dependencies:
 ```
+python -m FastAPIuserbot /path/to/new/virtual/environment
+source <venv>/bin/activate
 pip install -r requirements.txt
 ```       
 
@@ -50,6 +52,7 @@ uvicorn main:app --reload
 
 ### Todo:
 - Refactoring
+- More endpoints
 ### Contributing:
 
 Contributions are welcome! Feel free to submit pull requests for bug fixes, feature enhancements, or documentation improvements.
