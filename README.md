@@ -3,7 +3,7 @@
 
 ```mermaid
 flowchart TD
-    N[N8N] -->|Some business logic| N[N8N]
+    N[Your low-code solution] -->|Some business logic| N
     N -->|REST Request| F[FastApi]
     F[FastApi] -. REST Response ...-> N
     F --> |Call Pyrogram API function| P[Pyrogram]
